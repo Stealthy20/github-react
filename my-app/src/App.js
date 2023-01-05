@@ -1,13 +1,10 @@
-import logo from './logo.svg';
-import './App.css';
-import StatefulGreetingWithCallback from "./components/StatefulGreetingWithCallback";
+import "./App.css";
+import MethodAsPropsParent from "./components/MethodAsPropsParent";
 
 function App() {
-  return (
-    <div className="App">
-      <StatefulGreetingWithCallback />
-    </div>
-  );
+  return <div className="App">
+      <MethodAsPropsParent />
+  </div>;
 }
 
-export default App;
+export default App
